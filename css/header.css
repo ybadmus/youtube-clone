@@ -17,7 +17,7 @@
 
 .sideicon {
     padding: 6px;
-    min-width: 40px;
+    min-width: 35px;
 }
 
 .sideicon svg {
@@ -39,6 +39,8 @@
 .searchbar form input {
     height: 100%;
     width: 100%;
+    font-size: 16px;
+    padding-left: 6px;
 }
 
 .searchbar button {

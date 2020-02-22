@@ -1,0 +1,17 @@
+main {
+    padding: 25px;
+}
+
+.videos {
+    max-width: 67%;
+    padding-left: 25px;
+}
+
+.video_player iframe {
+    width: 100%;
+    height: 710px;
+}
+
+.recommended_videos {
+    max-width: 33%;
+}
