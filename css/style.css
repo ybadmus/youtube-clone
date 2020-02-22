@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start; /*default c like language*/
+    padding-left: 20px;
+}
+
+.youlogocontainer {
+    width: 120px;
+}
+
+.youtubelogo {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.sideicon {
+    padding: 6px;
+    min-width: 33px;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 470px 50px; /*50fr 3fr*/
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.searchbar form input {
+    height: 100%;
+    width: 100%;
+}
+
+.searchbar button {
+    width: 80px;
+    background: #f9f9f9;
+}
+
+.searchbar button img {
+    height: 23px;
+}
