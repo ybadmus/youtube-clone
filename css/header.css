@@ -20,11 +20,15 @@
     min-width: 35px;
 }
 
-.sideicon svg {
-    height: 23px;
-    pointer-events: none;
-    display: block;
+.sideicon i {
+    font-size: 20px;
+    color: gray;
+    padding-top: 5px;
 } 
+
+.sideicon img {
+    border-radius: 50%;
+}
 
 .searchbar {
     display: grid;
@@ -55,4 +59,9 @@
 .user_actions {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+.country_logo_renderer {
+    color: var(--yt-spec-text-secondary);
+    margin: 0 0 0 2px;
 }
