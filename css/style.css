@@ -1,2 +1,6 @@
 @import "header.css";
 @import "main.css";
+
+html {
+    font-family: "Lato", sans-serif;
+}
