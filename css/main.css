@@ -93,3 +93,45 @@ main {
 .artist-description p {
     width: 70%;
 }
+
+.artist-description span {
+    font-size: 14px;
+}
+
+.no-comments {
+    width: 150px;
+}
+
+.comments section {
+    display: flex;
+}
+
+.comments-stats h4 {
+    font-weight: 500;
+    margin-right: 32px;
+}
+
+.sortby {
+    color: gray;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.comments img {
+    border-radius: 50%;
+}
+
+.user-input-field {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.user-input-field input {
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid silver;
+    padding: 8px;
+    outline: none;
+}
