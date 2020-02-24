@@ -23,10 +23,12 @@ main {
 
 .video_description h3 {
     margin-bottom: 0px;
+    font-weight: 500;
 }
 
 .video_description p {
-    font-size: 16px;
+    font-size: 14px;
+    color: gray;
 }
 
 .user_controls {
@@ -88,6 +90,8 @@ main {
 
 .artist-description {
     padding-left: 40px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
 }
 
 .artist-description p {
@@ -95,7 +99,9 @@ main {
 }
 
 .artist-description span {
-    font-size: 14px;
+    font-size: 13px;
+    color: gray;
+    font-weight: bold;
 }
 
 .no-comments {
@@ -123,6 +129,14 @@ main {
     border-radius: 50%;
 }
 
+.postedby-user img {
+    border-radius: 50%;
+} 
+
+.postedby-user-subsequent img {
+    border-radius: 50%;
+}
+
 .user-input-field {
     padding-left: 20px;
     width: 100%;
@@ -134,4 +148,41 @@ main {
     border-bottom: 1px solid silver;
     padding: 8px;
     outline: none;
+}
+
+.commentposted {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.commentposted .dateago {
+    color: gray;
+    font-weight: 500;
+}
+
+.postedby-user {
+    margin-top: 40px;
+    display: flex;
+}
+
+.postedby-user .commentposted h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.postedby-user .commentposted p {
+    font-size: 14px;
+}
+
+.postedby-user-subsequent {
+    display: flex;
+}
+
+.postedby-user-subsequent .commentposted h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.postedby-user-subsequent .commentposted p {
+    font-size: 14px;
 }
