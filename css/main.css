@@ -2,6 +2,10 @@ main {
     padding: 25px;
 }
 
+.page-container {
+    display: flex;
+}
+
 .videos {
     max-width: 67%;
     padding-left: 25px;
@@ -15,10 +19,6 @@ main {
 .video_details {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.recommended_videos {
-    max-width: 33%;
 }
 
 .video_description {
@@ -83,10 +83,10 @@ main {
     background-color: #e00505;
     width: 120px;
     height: 40px;
-    font-size: 15px;
+    font-size: 14px;
     color: floralwhite;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 2px;
 }
 
