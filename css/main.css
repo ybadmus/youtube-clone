@@ -21,6 +21,12 @@ main {
     max-width: 33%;
 }
 
+.video_description {
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
 .video_description h3 {
     margin-bottom: 0px;
     font-weight: 500;
@@ -74,13 +80,13 @@ main {
 
 .subscriber-info button {
     float: right;
-    background-color: #983a3a;
+    background-color: #e00505;
     width: 120px;
     height: 40px;
     font-size: 15px;
     color: floralwhite;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 2px;
 }
 
@@ -90,7 +96,7 @@ main {
 
 .artist-description {
     padding-left: 40px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid silver;
     padding-bottom: 20px;
 }
 
@@ -170,10 +176,6 @@ main {
     margin-bottom: 0px;
 }
 
-.postedby-user .commentposted p {
-    font-size: 14px;
-}
-
 .postedby-user-subsequent {
     display: flex;
 }
@@ -183,6 +185,21 @@ main {
     margin-bottom: 0px;
 }
 
-.postedby-user-subsequent .commentposted p {
+.commentposted .commentposted p {
     font-size: 14px;
+}
+
+.commentposted .comment-likes-reply {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+}
+
+.commentposted .dislike-icon{
+    padding-top: 5px;
+}
+
+.commentposted .reply-icon {
+    padding-top: 5px;
+    color: gray;
 }
