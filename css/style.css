@@ -5,3 +5,7 @@
 html {
     font-family: "Lato", sans-serif;
 }
+
+.hiddenHeader {
+    display: none;
+}
