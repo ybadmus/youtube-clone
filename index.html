@@ -1,29 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Youtube Clone</title>
-        <link  rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div>
-            <nav>
-                <div class="flex-container">
-                    <div class="sideicon"><img class="menuicon" alt="menu icon" src="./img/nav_icon.png" ></div>
-                    <div class="youlogocontainer"><img class="youtubelogo" alt="logo icon" src="https://logosmarcas.com/wp-content/uploads/2018/06/Youtube-Logo.png"></div>
-                    <div class="searchbar">
-                        <form class="searchform">
-                            <input type="search" name="Searchbar" placeholder="Search">
-                        </form>
-                        <div>
-                            <button class="button"><img alt="search icon" src="./img/search_btn.png" /></button>
-                        </div>
-                    </div>
-                    <div class="userdetails">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="flex-container">
+                <div class="sideicon"><img alt="menu icon" src="./img/nav_icon.png"></div>
+                <div class="youlogocontainer"><img class="youtubelogo" alt="logo icon" src="https://logosmarcas.com/wp-content/uploads/2018/06/Youtube-Logo.png"></div>
+                <div class="searchbar">
+                    <form class="searchform">
+                        <input type="search" name="Searchbar" placeholder="Search">
+                    </form>
+                    <div>
+                        <button class="button"><img alt="search icon" src="./img/search_btn.png" /></button>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </body>
+                <div class="user_actions">
+                    <div class="sideicon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="sideicon">
+                        <i><img alt="menu icon" class="icon-fix2" src="img/menu.png"></i>
+                    </div>
+                    <div class="sideicon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="sideicon">
+                        <img alt="Avatar image" height="32" width="32" src="https://yt3.ggpht.com/-d8OfJlpEizo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reNKAzz5rF244k2TMzz-eipiaLX0g/s88-c-k-c0xffffffff-no-rj-mo/photo.jpg">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="page-container">
+                <article class="videos">
+                    <h3 class="hiddenHeader">Header</h3>
+                    <section class="video_player">
+                        <h3 class="hiddenHeader">Header</h3>
+                        <iframe src="https://www.youtube.com/embed/QLiYemcdFUw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </section>
+                    <section class="video_description">
+                        <h3>
+                            Damian "Jr. Gong" Marley - Autumn Leaves (Official Video)
+                        </h3>
+                        <div class="video_details">
+                            <div>
+                                <p>3,959,632 views • Sep 20, 2018</p>
+                            </div>
+                            <div class="user_controls">
+                                <div><i class="fas fa-thumbs-up"></i><span>60K</span></div>
+                                <div><i class="fas fa-thumbs-down"></i><span>1.2K</span></div>
+                                <div><i class="fas fa-share"></i><span>SHARE</span></div>
+                                <div><i class="fas fa-list-alt"></i><span>SAVE</span></div>
+                                <div><i class="fas fa-ellipsis-h"></i></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="artist-info">
+                            <div>
+                                <img src="https://yt3.ggpht.com/a-/AAuE7mC1S1lsXzJ8vNvSbnJR4XVJIuIH0QRq_eM22-AWig=s400-c-k-c0x00ffffff-no-rj"
+                                    width="50" height="50" alt="youtube-image"/>
+                            </div>
+                            <div class="subscriber-info">
+                                <div>
+                                    <h4>Egon Sminimets</h4>
+                                    <span>2.87K subscribers</span>
+                                </div>
+                                <div>
+                                    <button>subscribe</button>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section class="artist-description">
+                        <h3 class="hiddenHeader">Header</h3>
+                        <p>Ex-Google Tech Lead explains a critical issue with all Windows laptops, and how a 5-year old
+                            Macbook still smokes a modern Dell XPS 13 (the modern "Macbook" of Windows). In his quest
+                            to find a laptop for his wife, everything goes wrong as he opens what should have been the
+                            answer</p>
+
+                        <button>SHOW MORE</button>
+                    </section>
+
+                    <article class="comments">
+                        <h3 class="hiddenHeader">Header</h3>
+                        <section class="comments-stats">
+                            <h4>3,697 Comments</h4>
+                            <div class="sortby"><i class="fas fa-bars"></i>&nbsp;&nbsp;&nbsp; SORT BY</div>
+                        </section>
+                        <section>
+                            <h3 class="hiddenHeader">Header</h3>
+                            <div><img alt="Avatar image" src="https://yt3.ggpht.com/-d8OfJlpEizo/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reNKAzz5rF244k2TMzz-eipiaLX0g/s88-c-k-c0xffffffff-no-rj-mo/photo.jpg"
+                                    width="40" height="40" /></div>
+                            <div class="user-input-field">
+                                <input placeholder="Add a public comment..." />
+                            </div>
+                        </section>
+                    </article>
+
+                    <section class="postedby-user">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l79fsPPclKIBP3iU86WOKFUqDe34jKGuf7kxeQ=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>aSmallDot <span class="dateago">1 year ago</span></h5>
+                            <div>
+                                <p>Man, if Damian wasn't here, my best friend would've committed suicide. I'm not
+                                    joking, he actually was suicidal, but after listening to him for a while he turned
+                                    his life around.<br /><br />
+                                    Nothing more to say than just thank you Damian.</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7_bHXWlAiuZvbT2hEBt6wSCqrpkBoD98TyhMg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>nii adjei dsane <span class="dateago">1 year ago</span></h5>
+                            <div>
+                                <p>Worth 10m views ...<br />
+                                    Like if you agree</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7-h14ZFXA32Z9pxXIGF0_D7uwM06woM2-A8Tg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>arifibillah786 <span class="dateago">6 months ago</span></h5>
+                            <div>
+                                <p>Worth 10m views ...<br />
+                                    Like if you agree</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7_B9iNdTQ28lkRsjQLkDVQoiQjCyVlYLXyu0w=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>Extravaganza Productions <span class="dateago">3 years ago</span></h5>
+                            <div>
+                                <p>The original sample is from a song called Undenge Uami by David Ze. David Ze was
+                                    born on August 23, 1944, in Luanda, Angola and died on May 27, 1977. R.I.P</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l78-fpEMxmevM4vjfZu_xsOE2c5LoA3An3lrEg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>RISE & SHINE <span class="dateago">5 years ago</span></h5>
+                            <div>
+                                <p>"Your real friends won't do you wrong, real friends don't change."</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7_bHXWlAiuZvbT2hEBt6wSCqrpkBoD98TyhMg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>nii adjei dsane <span class="dateago">1 year ago</span></h5>
+                            <div>
+                                <p>Worth 10m views ...<br />
+                                    Like if you agree</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7-h14ZFXA32Z9pxXIGF0_D7uwM06woM2-A8Tg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>arifibillah786 <span class="dateago">6 months ago</span></h5>
+                            <div>
+                                <p>Worth 10m views ...<br />
+                                    Like if you agree</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l7_B9iNdTQ28lkRsjQLkDVQoiQjCyVlYLXyu0w=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>Extravaganza Productions <span class="dateago">3 years ago</span></h5>
+                            <div>
+                                <p>The original sample is from a song called Undenge Uami by David Ze. David Ze was
+                                    born on August 23, 1944, in Luanda, Angola and died on May 27, 1977. R.I.P</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="postedby-user-subsequent">
+                        <div><img alt="Avatar image" src="https://yt3.ggpht.com/a/AGF-l78-fpEMxmevM4vjfZu_xsOE2c5LoA3An3lrEg=s48-c-k-c0xffffffff-no-rj-mo"
+                                width="40" height="40" />
+                        </div>
+                        <div class="commentposted">
+                            <h5>RISE & SHINE <span class="dateago">5 years ago</span></h5>
+                            <div>
+                                <p>"Your real friends won't do you wrong, real friends don't change."</p>
+                            </div>
+                            <div class="comment-likes-reply">
+                                <div>
+                                    <span><img class="comment_action" alt="like button" src="./img/like.png"></span>
+                                </div>
+                                <div class="dislike-icon">
+                                    <span><img class="comment_action" alt="dislike button" src="./img/dislike.png"></span>
+                                </div>
+                                <div class="reply-icon">
+                                    <span>REPLY</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+
+                <article class="recommended-videos">
+                    <div class="recom-holder">
+                        <div class="video-placeholder">
+                            <img alt="recommended-video" src="https://i.ytimg.com/an_webp/ebfeumBDymc/mqdefault_6s.webp?du=3000&sqp=CKrq0_IF&rs=AOn4CLBaG82DmcsCDM3YhzNfBg4mwW0fKw">
+                        </div>
+                        <div class="video-desc">
+                            <h4>Stephen Marley Rock Stone ft Capleton, Sizzla / Naytian</h4>
+                            <div>Wiz Khalifa</div>
+                            <div>Recommended for you</div>
+                        </div>
+                    </div>
+
+                    <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/7Gbk0QijE4U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0UQGtHHKG5GUIEpbVuKPbY6OjUA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Wiz Khalifa x Berner - "Chapo" (Official Music Video)</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/lWA2pjMjpBs/mqdefault_6s.webp?du=3000&sqp=CJzv0_IF&rs=AOn4CLDlEnsOtykFYIEjXEjO3V8pTqP_zA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Rihanna - Man Down</h4>
+                                <div>Beyonce</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/N6O2ncUKvlg/mqdefault_6s.webp?du=3000&sqp=CMjD0_IF&rs=AOn4CLAgPMvoCapFCVEM73dLazv3FSD5KA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Nelly - Just A Dream (Official Music Video)</h4>
+                                <div>Nelly</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/TOrnUquxtwA/mqdefault_6s.webp?du=3000&sqp=CIDq0_IF&rs=AOn4CLCmc4u1GPBReB9V7t9CUL5C44RsAQ">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem ft. Rihanna - The Monster (Explicit) [Official Video]</h4>
+                                <div>Eminem</div>
+                                <div>308M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/EHkozMIXZ8w/mqdefault_6s.webp?du=3000&sqp=CMy_0_IF&rs=AOn4CLD2FcQbkCUr-0JwbIUQi_fOvWd1zw">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem Ft. Rihanna - Love The Way You Lie</h4>
+                                <div>Ahnaf Khan</div>
+                                <div>6.2M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/BQ0mxQXmLsk/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDW7SXSh7QwzTWFKUS9ew92bcWN-w">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Stephen Marley Rock Stone ft Capleton, Sizzla / Naytian</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/7Gbk0QijE4U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0UQGtHHKG5GUIEpbVuKPbY6OjUA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Wiz Khalifa x Berner - "Chapo" (Official Music Video)</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/lWA2pjMjpBs/mqdefault_6s.webp?du=3000&sqp=CJzv0_IF&rs=AOn4CLDlEnsOtykFYIEjXEjO3V8pTqP_zA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Rihanna - Man Down</h4>
+                                <div>Beyonce</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/N6O2ncUKvlg/mqdefault_6s.webp?du=3000&sqp=CMjD0_IF&rs=AOn4CLAgPMvoCapFCVEM73dLazv3FSD5KA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Nelly - Just A Dream (Official Music Video)</h4>
+                                <div>Nelly</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/TOrnUquxtwA/mqdefault_6s.webp?du=3000&sqp=CIDq0_IF&rs=AOn4CLCmc4u1GPBReB9V7t9CUL5C44RsAQ">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem ft. Rihanna - The Monster (Explicit) [Official Video]</h4>
+                                <div>Eminem</div>
+                                <div>308M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/EHkozMIXZ8w/mqdefault_6s.webp?du=3000&sqp=CMy_0_IF&rs=AOn4CLD2FcQbkCUr-0JwbIUQi_fOvWd1zw">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem Ft. Rihanna - Love The Way You Lie</h4>
+                                <div>Ahnaf Khan</div>
+                                <div>6.2M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/BQ0mxQXmLsk/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDW7SXSh7QwzTWFKUS9ew92bcWN-w">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Stephen Marley Rock Stone ft Capleton, Sizzla / Naytian</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/7Gbk0QijE4U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0UQGtHHKG5GUIEpbVuKPbY6OjUA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Wiz Khalifa x Berner - "Chapo" (Official Music Video)</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/lWA2pjMjpBs/mqdefault_6s.webp?du=3000&sqp=CJzv0_IF&rs=AOn4CLDlEnsOtykFYIEjXEjO3V8pTqP_zA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Rihanna - Man Down</h4>
+                                <div>Beyonce</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/N6O2ncUKvlg/mqdefault_6s.webp?du=3000&sqp=CMjD0_IF&rs=AOn4CLAgPMvoCapFCVEM73dLazv3FSD5KA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Nelly - Just A Dream (Official Music Video)</h4>
+                                <div>Nelly</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/TOrnUquxtwA/mqdefault_6s.webp?du=3000&sqp=CIDq0_IF&rs=AOn4CLCmc4u1GPBReB9V7t9CUL5C44RsAQ">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem ft. Rihanna - The Monster (Explicit) [Official Video]</h4>
+                                <div>Eminem</div>
+                                <div>308M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/an_webp/EHkozMIXZ8w/mqdefault_6s.webp?du=3000&sqp=CMy_0_IF&rs=AOn4CLD2FcQbkCUr-0JwbIUQi_fOvWd1zw">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Eminem Ft. Rihanna - Love The Way You Lie</h4>
+                                <div>Ahnaf Khan</div>
+                                <div>6.2M views</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/BQ0mxQXmLsk/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDW7SXSh7QwzTWFKUS9ew92bcWN-w">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Stephen Marley Rock Stone ft Capleton, Sizzla / Naytian</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                        <div class="recom-holder">
+                            <div class="video-placeholder">
+                                <img alt="recommended-video" src="https://i.ytimg.com/vi/7Gbk0QijE4U/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0UQGtHHKG5GUIEpbVuKPbY6OjUA">
+                            </div>
+                            <div class="video-desc">
+                                <h4>Wiz Khalifa x Berner - "Chapo" (Official Music Video)</h4>
+                                <div>Wiz Khalifa</div>
+                                <div>Recommended for you</div>
+                            </div>
+                        </div>
+    
+                </article>
+            </div>
+        </main>
+    </div>
+</body>
+
 </html>
+

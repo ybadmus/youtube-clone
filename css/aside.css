@@ -1,0 +1,30 @@
+.page-container .recommended-videos {
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 33%;
+}
+
+.recom-holder {
+  display: flex;
+  margin: 7px 0;
+}
+
+.recom-holder h4 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.video-desc {
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.video-desc div {
+  color: gray;
+  font-size: 14px;
+}
+
+.video-placeholder img {
+  height: 94px;
+}
