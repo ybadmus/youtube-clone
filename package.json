@@ -1,0 +1,26 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "Embedding Images and Video - HTML &amp; CSS section",
+  "main": "stylelint.config.js",
+  "scripts": {
+
+  }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybadmus/youtube-clone.git";
+  }
+  ,
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+
+  }
+  ,
+  "homepage": "https://github.com/ybadmus/youtube-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.0",
+    "stylelint-config-recommended": "^3.0.0";
+  }
+}
