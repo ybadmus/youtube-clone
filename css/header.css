@@ -1,75 +1,75 @@
 .navbar {
-    overflow: hidden;
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.98);
-    top: 0;
-    width: 100%;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.98);
+  top: 0;
+  width: 100%;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start; /*default c like language*/
-    margin: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; /* default c like language */
+  margin: 5px 20px;
 }
 
 .youlogocontainer {
-    width: 120px;
+  width: 120px;
 }
 
 .youtubelogo {
-    height: 40px;
-    padding-left: 20px;
+  height: 40px;
+  padding-left: 20px;
 }
 
 .sideicon {
-    padding: 6px;
-    min-width: 35px;
+  padding: 6px;
+  min-width: 35px;
 }
 
 .sideicon i {
-    font-size: 20px;
-    color: gray;
-    padding-top: 5px;
-} 
+  font-size: 20px;
+  color: gray;
+  padding-top: 5px;
+}
 
 .sideicon img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .searchbar {
-    display: grid;
-    grid-template-columns: 50fr 3fr;
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 50fr 3fr;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .searchbar form input {
-    height: 100%;
-    width: 100%;
-    font-size: 16px;
-    padding-left: 6px;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 6px;
 }
 
 .searchbar button {
-    width: 80px;
-    background: #f9f9f9;
+  width: 80px;
+  background: #f9f9f9;
 }
 
 .searchbar button img {
-    height: 23px;
+  height: 23px;
 }
 
 .user_actions {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .country_logo_renderer {
-    color: var(--yt-spec-text-secondary);
-    margin: 0 0 0 2px;
+  color: var(--yt-spec-text-secondary);
+  margin: 0 0 0 2px;
 }

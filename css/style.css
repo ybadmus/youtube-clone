@@ -3,9 +3,9 @@
 @import "aside.css";
 
 html {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .hiddenHeader {
-    display: none;
+  display: none;
 }
